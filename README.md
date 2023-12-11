@@ -37,7 +37,8 @@
 - Tao file exampleAPI.py o trong thu muc MARLlib :
 
 
-```from marllib import marl
+```
+from marllib import marl
 
 # prepare the environment
 env = marl.make_env(environment_name="mpe", map_name="simple_spread", force_coop=True)
@@ -46,14 +47,16 @@ env = marl.make_env(environment_name="mpe", map_name="simple_spread", force_coop
 mappo = marl.algos.mappo(hyperparam_source="mpe")
 
 # build agent model based on env + algorithms + user preference if checked available
-model = marl.build_model(env, mappo, {"core_arch": "mlp", "encode_layer": "128-256"})```
-
+model = marl.build_model(env, mappo, {"core_arch": "mlp", "encode_layer": "128-256"})
+```
+***
 	
 - pip install "cython<3"
 - pip install -r requirement.txt voi file requirement.txt co noi dung nhu sau:
 
 ***
-```asttokens==2.4.1
+```
+asttokens==2.4.1
 async-timeout==4.0.3
 attrs==23.1.0
 certifi==2023.11.17
@@ -121,7 +124,8 @@ torch==1.9.0
 typing_extensions==4.8.0
 tzdata==2023.3
 urllib3==2.1.0
-zipp==3.17.0```
+zipp==3.17.0
+```
 
 ***
 
