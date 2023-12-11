@@ -34,7 +34,7 @@
 
 
 # 4. Add folder MARLlib vao IDE ( VSCode,..)
-- Tao file exampleAPI.py o trong thu muc MARLlib :
+- Tao file exampleAPI.py ở trong thư mục MARLlib :
 
 
 ```
@@ -52,7 +52,7 @@ model = marl.build_model(env, mappo, {"core_arch": "mlp", "encode_layer": "128-2
 ***
 	
 - pip install "cython<3"
-- pip install -r requirement.txt voi file requirement.txt co noi dung nhu sau:
+- pip install -r requirement.txt voi file requirement.txt có nội dung như sau:
 
 ***
 ```
@@ -129,5 +129,7 @@ zipp==3.17.0
 
 ***
 
+- conda install -c conda-forge gcc=12.1.0
 
+# 5. Sau khi cài xong như trên sẽ hiển ở bảng và thấy ở mamujoco có trạng thái là Ready ta sẽ thành công và bắt đầu config với các tham số và thuật toán.
 
